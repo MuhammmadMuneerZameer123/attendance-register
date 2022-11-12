@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+
+
+
+body{
+    background-image: url(../background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  
+}
+.classroomform{
+    width: 60%;
+    margin: 10vh auto;
+    background-color: white;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 20px;
+
+    
+
+}
+
+.classroomform input{
+    width: 55%;
+    margin: 0% auto;
+    text-align: left;
+    margin-top: 10px ;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.classroomform h1{
+    font-weight: bold;
+}
+#logo{
+    cursor: pointer;
+    background-color: white;
+    width: 100%;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#logoimg{
+    width: 30px;
+    height: auto;
+   
+}
+#section ,#days{
+    width: 50%;
+    display: block;
+    margin: 10px auto ;
+    border-radius: 10px;
+    padding: 10px;
+    
+}

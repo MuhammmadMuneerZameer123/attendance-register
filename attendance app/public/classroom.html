@@ -1,0 +1,65 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <link rel="stylesheet" href="classroom.css">
+</head>
+<body>
+
+    <nav class="head">
+        <div id="logo" >
+            <img id="logoimg" src="../download.png" alt="" srcset="">
+            <button onclick="signout()">logout</button></div>
+        
+        <div>
+
+
+
+    <div class="classroomform">
+        <h1>CREATE CLASS</h1>
+        <input type="text" placeholder="course name" id="coursename">
+    <input type="text" placeholder="Teachers name" id="teachername">
+    <input type="numbers"placeholder="timingto" id="timings" maxlength="2">
+    <input type="numbers"placeholder="timingfrom" id="timingsend" maxlength="2">
+    <select name="time" id="time" placeholder="timing" required  id="timezone">
+        <option value="am">AM</option>
+        <option value="pm">PM</option>      
+   </select><br>
+   <select name="section" id="sectionname" value="section" required >
+        <option value="A">A</option>
+        <option value="B">B</option> 
+        <option value="C">C</option> 
+        <option value="D">D</option> 
+        <option value="E">E</option> 
+        <option value="F">F</option> 
+    </div>
+    
+          
+</select>
+<select name="days" id="days" value="days" required >
+    <option value="mon-wed-fri">mon-wed-fri</option>
+    <option value="tues-thurs-sat">tues-thurs-sat</option> 
+    <option value="sat-sun">sat-sun</option> 
+    <option value="sun">sun</option> 
+    
+</div>
+
+      
+</select>
+  
+
+   
+   <input type="number" id="batchno" placeholder="Enter Batch No" maxlength="2">
+   <br>
+   <button style="width: 50%; margin-top:10px;padding:10px; border-radius: 20px;" onclick="createclass()">create</button>
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="app.js" type="module"></script>
+</body>
+</html>

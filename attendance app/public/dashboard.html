@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <link rel="stylesheet" href="classroom.css">
+</head>
+<body>
+    <nav>
+        <div onclick=backtologin()><img id="logoimg" src="../olxarrow.png" alt=""></div>
+        <div onclick="location.href = 'dashboard.html'"><img src="../download.png" alt="" srcset=""></div>
+        <div>
+            <button onclick="addstudent()">Add Student</button>
+            <button onclick="classes()">create class</button>
+            <button>signout</button>
+     </div>
+    </nav>
+    <div  id="classcontainer" class="class-container">
+        <div onclick="createclass()" id="createclass"></div>
+
+    </div>
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="app.js" type="module"></script>
+</body>
+</html>

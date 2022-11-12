@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="student.css">
+    <link rel="stylesheet" href="sweetalert2.min.css">
+</head>
+<body>
+    <nav> 
+        <a href="student">students</a>
+        <a href="student">students</a>
+        <button onclick="signout()">log out</button>
+    </nav>
+    <div class="studentform">
+        <div>
+            <img src="../download.png" alt="" srcset="">
+            <input type="text" id="firstname" placeholder="First name">
+        <input type="text" id="lastname" placeholder="Last name">
+        </div>
+        <div id="seconddata" style="display: block;">
+            <input type="text"  placeholder="father name" id="father" required>
+            <input type="number" placeholder="phone number" id="phonenumber" required>
+            <input type="number" placeholder="CNIC number" id="cnic" required>
+            <input type="file" id="studentimage" placeholder="enter your image" required >
+            <select name="categories" id="categories" required >
+                    <!-- <option value="mobiles">select a course</option>
+                    <option value="mobiles">graphic design</option>
+                    <option value="cars">cars design</option>
+                    <option value="Bikes">mobile repairing</option>
+                    <option value="Houses">web and design </option> -->
+           </select>
+           <button onclick="createstudentId()" style="background:rgb(8, 8, 156); color:white; font-size:21px; border:none; padding:10px; margin:10px; border-radius:10px ;">REGISTER</button> 
+        </div>
+    </div>
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="app.js" type="module"></script>
+</body>
+</html>
